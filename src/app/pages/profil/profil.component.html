@@ -1,0 +1,43 @@
+<!--  THis is a comment in HTML -->
+
+<!-- this is a table-->
+<table>
+    <tr>
+        <th class="header"> couleur des yeux</th>
+        <th class="header">taille de cul</th>
+        <th class="header"> pied</th>
+    </tr>
+    <tr>
+        <td class="line">bleu</td>
+        <td class="line">80</td>
+        <td class="line">nues</td>
+    </tr>
+</table>
+
+
+<!--new table-->
+<table class="line">
+    <tr >
+        <th > NAMES</th>
+        <td>Sveta</td>
+        <td>{{ name }}</td>
+        <td>Fleur</td>
+    </tr>
+    <tr>
+        <th class="slovo">adresse</th>
+        <td>{{ listAdresse[0] | titlecase}}</td>
+        <td>{{ listAdresse[1] | uppercase }}</td>
+        <td>{{ listAdresse[2] | titlecase}}</td>
+
+
+    </tr>
+    <tr>
+            <th>sobaka</th>
+            <td>kochka</td>
+            <td>{{listAdresse[2]}</td>
+    </tr>
+</table>
+
+
+
+<button routerLink="/accueil">accueil</button> 

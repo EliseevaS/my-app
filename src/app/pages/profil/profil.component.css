@@ -1,0 +1,22 @@
+/* comment in CSS */
+.header {
+    border : 2px solid ;
+    border-color: black;
+    background-color: aqua;
+}
+
+.line {
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: antiquewhite; 
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin: 5px 10px 0px 100px;
+}
+
+.slovo {
+    background-color: brown;
+}
